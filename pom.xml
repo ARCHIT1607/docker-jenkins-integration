@@ -33,8 +33,6 @@
       <configuration>
         <archive>
           <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
             <mainClass>com.dev.Docker_Jenkins_Integration</mainClass>
           </manifest>
         </archive>
