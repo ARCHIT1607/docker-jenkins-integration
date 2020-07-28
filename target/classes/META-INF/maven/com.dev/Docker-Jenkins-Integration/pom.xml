@@ -27,15 +27,15 @@
   <plugins>
     <plugin>
       <!-- Build an executable JAR -->
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-jar-plugin</artifactId>
-      <version>3.1.0</version>
+      <groupId>com.dev</groupId>
+      <artifactId>Docker-Jenkins-Integration</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
       <configuration>
         <archive>
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.mypackage.MyClass</mainClass>
+            <mainClass>com.dev.Docker_Jenkins_Integration</mainClass>
           </manifest>
         </archive>
       </configuration>
